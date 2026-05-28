@@ -86,7 +86,7 @@ The app will open in your browser automatically.
 
 ## 📊 How to Use
 
-1. Define scraping rules (search terms, product types, keywords)
+1. Define scraping rules (search terms, product types, keywords) - you can either type in the scraping rules in the table or upload a csv in the format of the sample [here](digitalcamerast1.csv)
 2. Select marketplaces
 3. Optionally set delivery postcodes (turned on as default for better product accuracy)
 4. Run scraping
