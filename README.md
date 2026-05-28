@@ -33,7 +33,7 @@ cd amazon-scraper-app
 ```
 #### OR
 
-Download appv2.py into your preferred folder, install all the necessary librarires listed in [requirements.txt](requirements.txt) and [Run the app](#run-the-app). 
+Download appv2.py into your preferred folder, install all the necessary libraries listed in [requirements.txt](requirements.txt) and [Run the app](#run-the-app). 
 ### 2. Create a virtual environment (recommended)
 
 ```bash
@@ -74,6 +74,7 @@ Steps:
 ---
 
 ## Run the App
+Open a terminal in the repository (or in the folder where you have saved the app). Run the following code: 
 
 ```bash
 python -m streamlit run appv2.py
@@ -92,6 +93,8 @@ The app will open in your browser automatically.
 5. Clean data
 6. Explore visualizations
 7. Export results
+
+*Note: In the side panel, the default "headless mode" is turned on and will run the geckodriver and firefox in the background and you will not see any windows being open. Turn off "headless mode" in the first few runs to see if there are any issues with loading of the pages or any breakdowns or bugs and if there are no issues with the scraping processes, turn back to the default headless mode.* 
 
 ---
 
