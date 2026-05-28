@@ -33,7 +33,7 @@ cd amazon-scraper-app
 ```
 #### OR
 
-Download appv2.py into your preferred folder, install all the necessary librarires listed in [requirements.txt](requirements.txt) and [Run the app](#-run-the-app). 
+Download appv2.py into your preferred folder, install all the necessary librarires listed in [requirements.txt](requirements.txt) and [Run the app](#run-the-app). 
 ### 2. Create a virtual environment (recommended)
 
 ```bash
@@ -73,7 +73,7 @@ Steps:
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 python -m streamlit run appv2.py
