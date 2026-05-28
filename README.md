@@ -31,7 +31,9 @@ A multi-country Amazon scraper with built-in data cleaning and visualization, po
 git clone https://github.com/YOUR_USERNAME/amazon-scraper-app.git
 cd amazon-scraper-app
 ```
+#### OR
 
+Download appv2.py into your preferred folder, install all the necessary librarires listed in [requirements.txt](requirements.txt) [Step 3](### 3.) and Run the app. 
 ### 2. Create a virtual environment (recommended)
 
 ```bash
@@ -74,7 +76,7 @@ Steps:
 ## ▶️ Run the App
 
 ```bash
-streamlit run app.py
+python -m streamlit run appv2.py
 ```
 
 The app will open in your browser automatically.
@@ -85,20 +87,11 @@ The app will open in your browser automatically.
 
 1. Define scraping rules (search terms, product types, keywords)
 2. Select marketplaces
-3. Optionally set delivery postcodes
+3. Optionally set delivery postcodes (turned on as default for better product accuracy)
 4. Run scraping
 5. Clean data
 6. Explore visualizations
 7. Export results
-
----
-
-## ⚠️ Important Notes
-
-- Amazon may block scraping via CAPTCHA or rate limiting
-- Results may vary depending on region and timing
-- Use delays and avoid aggressive scraping
-- This project is intended for educational and research purposes only
 
 ---
 
@@ -107,28 +100,12 @@ The app will open in your browser automatically.
 ```
 amazon-scraper-app/
 │
-├── app.py
+├── app.py           #older version
+├── appv2.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
-
----
-
-## 🌍 Deployment (Optional)
-
-### Streamlit Cloud (Recommended)
-
-1. Push this repo to GitHub
-2. Go to https://streamlit.io/cloud
-3. Connect your repo
-4. Deploy `app.py`
-
----
-
-## 👨‍💻 Author
-
-Your Name
 
 ---
 
