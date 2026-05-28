@@ -112,6 +112,3 @@ amazon-scraper-app/
 
 ---
 
-## 📄 License
-
-Add your preferred license here (e.g., MIT License)
